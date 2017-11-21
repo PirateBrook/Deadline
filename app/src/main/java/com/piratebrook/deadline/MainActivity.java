@@ -9,7 +9,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+import com.piratebrook.sdk.component.ErrorViewActivity;
+
+public class MainActivity extends ErrorViewActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

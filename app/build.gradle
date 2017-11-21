@@ -36,4 +36,5 @@ dependencies {
     compile "com.squareup.retrofit2:retrofit:$rootProject.retrofit"
     compile "com.squareup.retrofit2:converter-gson:$rootProject.retrofit"
     compile "com.squareup.retrofit2:converter-guava:$rootProject.retrofit"
+    compile project(path: ':sdk')
 }
