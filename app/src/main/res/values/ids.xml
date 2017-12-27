@@ -10,4 +10,5 @@
     <item name="item_icon" type="id" />
     <item name="item_title" type="id" />
     <item name="item_subtitle" type="id" />
+    <item name="item_right" type="id" />
 </resources>

@@ -10,14 +10,14 @@
     android:paddingTop="4dp">
 
     <ImageView
-        android:id="@+id/icon"
+        android:id="@id/item_icon"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_margin="4dp"
         android:scaleType="centerInside" />
 
     <RelativeLayout
-        android:id="@+id/right"
+        android:id="@+id/item_right"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
@@ -25,17 +25,17 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/item_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?attr/titleTextAppearance"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/subtitle"
+            android:id="@+id/item_subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/title"
+            android:layout_below="@id/item_title"
             android:layout_marginTop="4dp"
             android:textColor="#888888"
             android:textSize="16sp" />
